@@ -1,0 +1,22 @@
+Sequence(
+    effects: {
+        "one": MultiColour(colours: [Some((0, 65535, 65535, 4500)), None, None, None, None, None, None, None, None, None, None, None, None, None, None, Some((0, 65535, 65535, 4500))]),
+        "two": MultiColour(colours: [None, Some((0, 65535, 65535, 4500)), None, None, None, None, None, None, None, None, None, None, None, None, Some((0, 65535, 65535, 4500)), None]),
+        "three": MultiColour(colours: [None, None, Some((0, 65535, 65535, 4500)), None, None, None, None, None, None, None, None, None, None, Some((0, 65535, 65535, 4500)), None, None]),
+        "four": MultiColour(colours: [None, None, None, Some((0, 65535, 65535, 4500)), None, None, None, None, None, None, None, None, Some((0, 65535, 65535, 4500)), None, None, None]),
+        "five": MultiColour(colours: [None, None, None, None, Some((0, 65535, 65535, 4500)), None, None, None, None, None, None, Some((0, 65535, 65535, 4500)), None, None, None, None]),
+        "six": MultiColour(colours: [None, None, None, None, None, Some((0, 65535, 65535, 4500)), None, None, None, None, Some((0, 65535, 65535, 4500)), None, None, None, None, None]),
+        "seven": MultiColour(colours: [None, None, None, None, None, None, Some((0, 65535, 65535, 4500)), None, None, Some((0, 65535, 65535, 4500)), None, None, None, None, None, None]),
+        "eight": MultiColour(colours: [None, None, None, None, None, None, None, Some((0, 65535, 65535, 4500)), Some((0, 65535, 65535, 4500)), None, None, None, None, None, None, None]),
+    },
+    ops: [
+        Transition(to: "one", transition_ms: 100),
+        Transition(to: "two", transition_ms: 100),
+        Transition(to: "three", transition_ms: 100),
+        Transition(to: "four", transition_ms: 100),
+        Transition(to: "five", transition_ms: 100),
+        Transition(to: "six", transition_ms: 100),
+        Transition(to: "seven", transition_ms: 100),
+        Transition(to: "eight", transition_ms: 100),
+    ],
+)
